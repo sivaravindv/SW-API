@@ -22,7 +22,8 @@ const TableStyle = styled.div`
       text-align: left;
       text-transform: capitalize;
     }
-
+    tr:nth-child(odd) {
+      background-color: #ffff;
     tr:nth-child(even) {
       background-color: #fafafc;
 
